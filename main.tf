@@ -1,5 +1,7 @@
 #without using count meta argument by using for each we are doing the same.
-
+provider "aws" {
+  region = "us-west-2"
+}
 resource "aws_instance" "bibhu_instance" {
   for_each = tomap({                    #here we define the condition with 2 type of ami
     "bibhu-ami-id-micro" = "t2-micro"
