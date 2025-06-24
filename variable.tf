@@ -15,7 +15,7 @@ variable "bibhu_instance_type" {
   default = "t2.micro"
 }
 variable "bibhu_ec2_ami_id" {
-  default = "ami-0b09627181c8d5778"
+  default = "ami-0f39276b2d3b617c4"
   type = string
 }
 
